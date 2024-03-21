@@ -7,11 +7,38 @@ vim.g.maplocalleader = " "
 
 keymap("n", "<C-i>", "<C-i>", opts)
 
--- Better window navigation
-keymap("n", "<C-h>", "<C-w>h", opts)
-keymap("n", "<C-j>", "<C-w>j", opts)
-keymap("n", "<C-k>", "<C-w>k", opts)
-keymap("n", "<C-l>", "<C-w>l", opts)
+-- Window +  better kitty navigation
+keymap("n", "<C-j>", function()
+	if vim.fn.exists(":NvimTmuxNavigateDown") ~= 0 then
+		vim.cmd.NvimTmuxNavigateDown()
+	else
+		vim.cmd.wincmd("j")
+	end
+end)
+
+keymap("n", "<C-k>", function()
+	if vim.fn.exists(":NvimTmuxNavigateUp") ~= 0 then
+		vim.cmd.NvimTmuxNavigateUp()
+	else
+		vim.cmd.wincmd("k")
+	end
+end)
+
+keymap("n", "<C-l>", function()
+	if vim.fn.exists(":NvimTmuxNavigateRight") ~= 0 then
+		vim.cmd.NvimTmuxNavigateRight()
+	else
+		vim.cmd.wincmd("l")
+	end
+end)
+
+keymap("n", "<C-h>", function()
+	if vim.fn.exists(":NvimTmuxNavigateLeft") ~= 0 then
+		vim.cmd.NvimTmuxNavigateLeft()
+	else
+		vim.cmd.wincmd("h")
+	end
+end)
 keymap("n", "<m-tab>", "<c-6>", opts)
 
 keymap("n", "n", "nzz", opts)

@@ -60,6 +60,7 @@
   "nvim-nio": { "branch": "master", "commit": "ed70af8ad9d4dafdb55539ed2b4454aac2a2a0c3" },
   "nvim-spider": { "branch": "main", "commit": "bcc9fa38a62637491b75b02e364191553fd858a2" },
   "nvim-surround": { "branch": "main", "commit": "84a26afce16cffa7e3322cfa80a42cddf60616eb" },
+  "nvim-tmux-navigation": { "branch": "main", "commit": "4898c98702954439233fdaf764c39636681e2861" },
   "nvim-tree.lua": { "branch": "master", "commit": "f7c09bd72e50e1795bd3afb9e2a2b157b4bfb3c3" },
   "nvim-treesitter": { "branch": "master", "commit": "c28396de30b92a5af049037c2bd543a932a37a78" },
   "nvim-treesitter-textobjects": { "branch": "master", "commit": "d2a4ffc22d9d38d44edb73da007b3cf43451e9b4" },
@@ -87,9 +88,9 @@
   "trouble.nvim": { "branch": "main", "commit": "f1168feada93c0154ede4d1fe9183bf69bac54ea" },
   "tsc.nvim": { "branch": "main", "commit": "02856f0c67741a7c060df8f24a7f2806e1935f46" },
   "typescript-tools.nvim": { "branch": "master", "commit": "c43d9580c3ff5999a1eabca849f807ab33787ea7" },
-  "undotree": { "branch": "main", "commit": "eab459ab87dd249617b5f7187bb69e614a083047" },
   "vim-fugitive": { "branch": "master", "commit": "8d4e8d45385c63a0bf735fe1164772116bf0da0d" },
   "vim-illuminate": { "branch": "master", "commit": "305bf07b919ac526deb5193280379e2f8b599926" },
+  "vim-matchup": { "branch": "master", "commit": "2d660e4aa7c566014c667af2cda0458043527902" },
   "vim-test": { "branch": "master", "commit": "a49c9cade75e97cace5e3ba545ce82d02f689feb" },
   "which-key.nvim": { "branch": "main", "commit": "4433e5ec9a507e5097571ed55c02ea9658fb268a" }
 }

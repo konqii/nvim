@@ -33,6 +33,7 @@ spec "user.project"
 spec "user.toggleterm"
 spec "user.bufdelete"
 spec "user.hyper"
+spec "user.tmux-navigator"
 -- Extras
 spec "user.extras.colorizer"
 -- spec "user.extras.smoothie"
