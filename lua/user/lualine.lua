@@ -54,19 +54,20 @@ function M.config()
       section_separators = { left = "", right = "" },
 
       ignore_focus = { "NvimTree" },
-      theme = {
-        normal = {
-          a = {
-            bg = "#000"
-          },
-          b = {
-            bg = "#000"
-          },
-          c = {
-            bg = "#000"
-          },
-        }
-      }
+      -- theme = {
+      --   normal = {
+      --     a = {
+      --       bg = "#000"
+      --     },
+      --     b = {
+      --       bg = "#000"
+      --     },
+      --     c = {
+      --       bg = "#000"
+      --     },
+      --   }
+      -- }
+      theme = 'eldritch'
     },
     sections = {
       -- lualine_a = { {"branch", icon =""} },
